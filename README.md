@@ -1,1 +1,1 @@
-star rating componenet
+star rating component

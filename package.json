@@ -1,0 +1,19 @@
+{
+  "name": "stars-rating-react",
+  "version": "1.0.0",
+  "description": "A react component for star rating system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreeasimona/stars-rating-react.git"
+  },
+  "author": "simona.domnisoru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreeasimona/stars-rating-react/issues"
+  },
+  "homepage": "https://github.com/andreeasimona/stars-rating-react#readme"
+}
