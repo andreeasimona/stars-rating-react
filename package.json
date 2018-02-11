@@ -8,8 +8,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "node-sass": "node-sass --output-style compressed ./src/index.scss -o ./src/style",
-    "watch": "npm run node-sass"
+    "scss-compile": "node-sass --output-style compressed ./src/index.scss -o ./src/style",
+    "watch": "npm run scss-compile"
   },
   "repository": {
     "type": "git",
@@ -24,9 +24,7 @@
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.1.0"
-  },
-  "devDependencies": {
-    "node-sass": "4.5.0"
+    "react-scripts": "1.1.0",
+    "scss-compile": "^0.1.7"
   }
 }

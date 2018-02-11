@@ -5,7 +5,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-          <Star numberStars='5' size='small'/>
+          <Star numberStars='5' size='big'/>
       </div>
     );
   }
