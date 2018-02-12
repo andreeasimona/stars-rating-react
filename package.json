@@ -26,6 +26,8 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.0",
-    "scss-compile": "^0.1.7"
+    "scss-compile": "^0.1.7",
+    "sync-exec": "^0.6.2",
+    "webpack": "^3.11.0"
   }
 }
