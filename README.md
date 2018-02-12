@@ -7,7 +7,16 @@ Usage
 npm install -save stars-rating-react
 
 TODO
-the component
-testing
-examples
-readme
+The component
+
+Scss
+
+Basic functionality
+
+Props validation
+
+Testing
+
+Examples
+
+Readme
