@@ -3,8 +3,6 @@
 A react component for a star rating system
 
 <p>
-[![Build Status](https://travis-ci.org/andreeasimona/stars-rating-react.svg?branch=master)](https://travis-ci.org/andreeasimona/stars-rating-react)
-
 <a href="https://travis-ci.org/andreeasimona/stars-rating-react" rel="nofollow"><img src="https://travis-ci.org/andreeasimona/stars-rating-react.svg?branch=master" alt="Build Status" data-canonical-src="https://travis-ci.org/andreeasimona/stars-rating-react.svg?branch=master?style=flat-square" style="max-width:100%;"></a>
 </p>
 ## Getting Started
