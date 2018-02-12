@@ -28,6 +28,7 @@
     "react-scripts": "1.1.0",
     "scss-compile": "^0.1.7",
     "sync-exec": "^0.6.2",
+    "uglifyjs-webpack-plugin": "^1.1.8",
     "webpack": "^3.11.0"
   }
 }
