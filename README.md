@@ -4,6 +4,8 @@ A react component for a star rating system
 
 <p>
 <a href="https://travis-ci.org/andreeasimona/stars-rating-react" rel="nofollow"><img src="https://travis-ci.org/andreeasimona/stars-rating-react.svg?branch=master" alt="Build Status" data-canonical-src="https://travis-ci.org/andreeasimona/stars-rating-react.svg?branch=master?style=flat-square" style="max-width:100%;"></a>
+
+<a href='https://coveralls.io/github/andreeasimona/stars-rating-react?branch=master'><img src='https://coveralls.io/repos/github/andreeasimona/stars-rating-react/badge.svg?branch=master' alt='Coverage Status' /></a>
 </p>
 ## Getting Started
 
