@@ -12,27 +12,23 @@ A react component for a star rating system
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Status
+## Status
 The package is under creation. It cannot be used yet. Stay tuned for the next update.
 
-#### Usage
+## Usage
 
 npm install -save stars-rating-react
 
-#### TODO
+## Roadmap
 
-<p>
-<input type="checkbox" name="componenet" value="componenet">The component<br>
-Scss
+- The component
+- Scss
+- Basic functionality
+- Props validation
+- Testing
+- Examples
+- Readme
 
-Basic functionality
+## License
 
-Props validation
-
-Testing
-
-
-Examples
-
-Readme
-</p>
+MIT
