@@ -21,13 +21,13 @@ npm install -save stars-rating-react
 
 ## Roadmap
 
-- The component
-- Scss
-- Basic functionality
-- Props validation
-- Testing
-- Examples
-- Readme
+- [x] The component
+- [x] Scss
+- [x] Basic functionality
+- [x] Props validation
+- [ ] Testing
+- [ ] Examples
+- [ ] Readme
 
 ## License
 
