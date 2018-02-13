@@ -7,6 +7,7 @@ A react component for a star rating system
 
 <a href='https://coveralls.io/github/andreeasimona/stars-rating-react?branch=master'><img src='https://coveralls.io/repos/github/andreeasimona/stars-rating-react/badge.svg?branch=master' alt='Coverage Status' /></a>
 </p>
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -14,12 +15,14 @@ These instructions will get you a copy of the project up and running on your loc
 ### Status
 The package is under creation. It cannot be used yet. Stay tuned for the next update.
 
-Usage
+#### Usage
+
 npm install -save stars-rating-react
 
-TODO
-The component
+#### TODO
 
+<p>
+<input type="checkbox" name="componenet" value="componenet">The component<br>
 Scss
 
 Basic functionality
@@ -32,3 +35,4 @@ Testing
 Examples
 
 Readme
+</p>
