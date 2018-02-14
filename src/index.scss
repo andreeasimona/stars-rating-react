@@ -27,7 +27,7 @@
 .star-label {
     position: relative;
     float: right;
-    color: #C8C8C8;
+    color: rgb(200, 200, 200);
 }
 
 .star-label:before {
@@ -41,13 +41,13 @@
 }
 
 .checked~label:before {
-    color: #FFC107;
+    color: rgb(255, 193, 7);
 }
 
 .star-label:hover~label:before {
-    color: #F5FF70;
+    color: rgb(255, 215, 0);
 }
 
 .star-label:hover:before {
-    color: #FFC107;
+    color: rgb(255, 193, 7);
 }
