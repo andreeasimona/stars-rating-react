@@ -10,7 +10,7 @@
     "scss-compile": "node-sass --output-style compressed ./src/index.scss -o ./src/style",
 	"watch": "npm run scss-compile",
 	"cover": "istanbul cover _mocha",
-    "test": "SET NODE_ENV=development& mocha --compilers js:babel-register --require ./test/helpers.js --require ./test/dom.js --recursive ./test/test.js"
+    "test": "NODE_ENV=development& mocha --compilers js:babel-register --require ./test/helpers.js --require ./test/dom.js --recursive ./test/test.js"
   },
   "repository": {
     "type": "git",
