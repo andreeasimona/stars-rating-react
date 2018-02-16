@@ -1,39 +1,50 @@
 {
-  "name": "stars-rating-react",
-  "version": "1.0.0",
-  "description": "A react component for star rating system",
-  "main": "index.js",
-  "scripts": {
-    "start": "npm run watch && react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "scss-compile": "node-sass --output-style compressed ./src/index.scss -o ./src/style",
-    "watch": "npm run scss-compile"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/andreeasimona/stars-rating-react.git"
-  },
-  "author": "simona.domnisoru",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/andreeasimona/stars-rating-react/issues"
-  },
-  "homepage": "https://github.com/andreeasimona/stars-rating-react#readme",
-  "dependencies": {
-    "chai": "^4.1.2",
-    "coveralls": "^3.0.0",
-    "istanbul": "^0.4.5",
-    "mocha": "^5.0.1",
-    "prop-types": "^15.6.0",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-scripts": "1.1.0",
-    "scss-compile": "^0.1.7",
-    "sinon": "^4.3.0",
-    "sync-exec": "^0.6.2",
-    "uglifyjs-webpack-plugin": "^1.1.8",
-    "webpack": "^3.11.0"
-  }
+	"name": "stars-rating-react",
+	"version": "1.0.0",
+	"description": "A react component for star rating system",
+	"main": "index.js",
+	"scripts": {
+		"start": "npm run watch && react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test --env=jsdom",
+		"eject": "react-scripts eject",
+		"scss-compile": "node-sass --output-style compressed ./src/index.scss -o ./src/style",
+		"watch": "npm run scss-compile",
+		"test-mocha": "SET NODE_ENV=development& mocha --compilers js:babel-core/register ./test/test.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/andreeasimona/stars-rating-react.git"
+	},
+	"author": "simona.domnisoru",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/andreeasimona/stars-rating-react/issues"
+	},
+	"homepage": "https://github.com/andreeasimona/stars-rating-react#readme",
+	"dependencies": {
+		"chai": "^4.1.2",
+		"coveralls": "^3.0.0",
+		"enzyme": "^3.3.0",
+		"enzyme-adapter-react-16": "^1.1.1",
+		"istanbul": "^0.4.5",
+		"mocha": "^5.0.1",
+		"prop-types": "^15.6.0",
+		"react": "^16.2.0",
+		"react-dom": "^16.2.0",
+		"react-scripts": "1.1.0",
+		"scss-compile": "^0.1.7",
+		"sinon": "^4.3.0",
+		"sync-exec": "^0.6.2",
+		"uglifyjs-webpack-plugin": "^1.1.8",
+		"webpack": "^3.11.0"
+	},
+	"babel": {
+		"presets": [
+			"react-app"
+		],
+		"plugins": [
+			"transform-es2015-modules-commonjs"
+		]
+	}
 }
