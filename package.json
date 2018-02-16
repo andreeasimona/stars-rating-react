@@ -8,7 +8,8 @@
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "scss-compile": "node-sass --output-style compressed ./src/index.scss -o ./src/style",
-    "watch": "npm run scss-compile",
+	"watch": "npm run scss-compile",
+	"cover": "istanbul cover _mocha",
     "test": "SET NODE_ENV=development& mocha --compilers js:babel-register --require ./test/helpers.js --require ./test/dom.js --recursive ./test/test.js"
   },
   "repository": {
@@ -45,5 +46,8 @@
     "plugins": [
       "transform-es2015-modules-commonjs"
     ]
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5"
   }
 }
