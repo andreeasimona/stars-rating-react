@@ -8,9 +8,9 @@
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "scss-compile": "node-sass --output-style compressed ./src/index.scss -o ./src/style",
-	"watch": "npm run scss-compile",
-	"cover": "istanbul cover _mocha",
-    "test": "SET NODE_ENV=development& mocha --compilers js:babel-register --require ./test/helpers.js --require ./test/dom.js --recursive ./test/test.js"
+    "watch": "npm run scss-compile",
+    "cover": "./node_modules/.bin/istanbul test ./node_modules/mocha/bin/_mocha -- --recursive -R spec",
+    "test": "SET NODE_ENV=development& nyc mocha --compilers js:babel-register --require ./test/helpers.js --require ./test/dom.js --recursive ./test/test.js"
   },
   "repository": {
     "type": "git",
@@ -48,6 +48,7 @@
     ]
   },
   "devDependencies": {
-    "istanbul": "^0.4.5"
+    "istanbul": "^0.4.5",
+    "nyc": "^11.4.1"
   }
 }
